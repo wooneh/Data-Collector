@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Data Collector</title>
+  <meta name="description" content="Data Collecting Exercisers at Auckland Domain">
+  <meta name="author" content="wooneh">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <div class="header">
+    <h1 id="date"></h1>
+    <h1 id="temp"></h1>
+    <h1 id="weather"></h1>
+  </div>
+  <form class="data">
+    <div class="control-wrapper">
+      <label for="walking">Walking:</label>
+      <input class="form-control" id="walking" type="number" />
+    </div>
+    <div class="control-wrapper">
+      <label for="running">Running:</label>
+      <input class="form-control" id="running" type="number" />
+    </div>
+    <div class="control-wrapper">
+      <label for="dog-walking">Dog Walking:</label>
+      <input class="form-control" id="dog-walking" type="number" />
+    </div>
+    <div class="control-wrapper">
+      <label for="lime">Lime:</label>
+      <input class="form-control" id="lime" type="number" />
+    </div>
+    <button class="btn" type="submit">Save</button>
+  </form>
+  <script src="js/date.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+</html>

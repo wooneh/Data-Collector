@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+}
+
+.control-wrapper {
+  font-size: 40px;
+  padding: 6px 12px;
+}
+
+.form-control {
+  font-size: 40px;
+  float: right;
+  width: 50px;
+}
+
+.btn {
+  display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 15px 32px;
+}
