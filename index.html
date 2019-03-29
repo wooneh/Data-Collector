@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 
 <html lang="en">
 <head>
@@ -14,34 +14,39 @@
 </head>
 
 <body>
-  <div class="header">
-    <h1 id="date"></h1>
-    <h1 id="temp"></h1>
-    <h1 id="weather"></h1>
-  </div>
-  <div class="container">
-    <div id="inc">
-        <div class="activity" id="walking">
-            <span class="icon">🚶</span>
-            <span class="counter">0</span>
-          </div>
-          <div class="activity" id="running">
-            <span class="icon">🏃</span>
-            <span class="counter">0</span>
-          </div>
-          <div class="activity" id="dog">
-            <span class="icon">🐕</span>
-            <span class="counter">0</span>
-          </div>
-          <div class="activity" id="lime">
-            <span class="icon">🍋</span>
-            <span class="counter">0</span>
-          </div>
+    <div class="header">
+        <h1 id="date"></h1>
+        <h1 id="temp"></h1>
+        <h1 id="weather"></h1>
     </div>
-    <button class="submit">Done</button>
-  </div>
-  <script src="js/date.js"></script>
-  <script src="js/weather.js"></script>
-  <script src="js/increment.js"></script>
+    <div class="container">
+        <div id="inc">
+            <div class="activity" id="walking">
+                <span class="icon">🚶</span>
+                <span class="counter">0</span>
+            </div>
+            <div class="activity" id="running">
+                <span class="icon">🏃</span>
+                <span class="counter">0</span>
+            </div>
+            <div class="activity" id="dog">
+                <span class="icon">🐕</span>
+                <span class="counter">0</span>
+            </div>
+            <div class="activity" id="lime">
+                <span class="icon">🍋</span>
+                <span class="counter">0</span>
+            </div>
+        </div>
+        <button id="submit">Done</button>
+    </div>
+    <script src="js/date.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/increment.js"></script>
+    <script src="js/update.js"></script>
+    <script async defer src="https://apis.google.com/js/api.js"
+            onload="this.onload=function(){};handleClientLoad()"
+            onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
 </body>
 </html>
