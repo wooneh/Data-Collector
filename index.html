@@ -19,26 +19,29 @@
     <h1 id="temp"></h1>
     <h1 id="weather"></h1>
   </div>
-  <form class="data">
-    <div class="control-wrapper">
-      <label for="walking">Walking:</label>
-      <input class="form-control" id="walking" type="number" />
+  <div class="container">
+    <div id="inc">
+        <div class="activity" id="walking">
+            <span class="icon">🚶</span>
+            <span class="counter">0</span>
+          </div>
+          <div class="activity" id="running">
+            <span class="icon">🏃</span>
+            <span class="counter">0</span>
+          </div>
+          <div class="activity" id="dog">
+            <span class="icon">🐕</span>
+            <span class="counter">0</span>
+          </div>
+          <div class="activity" id="lime">
+            <span class="icon">🍋</span>
+            <span class="counter">0</span>
+          </div>
     </div>
-    <div class="control-wrapper">
-      <label for="running">Running:</label>
-      <input class="form-control" id="running" type="number" />
-    </div>
-    <div class="control-wrapper">
-      <label for="dog-walking">Dog Walking:</label>
-      <input class="form-control" id="dog-walking" type="number" />
-    </div>
-    <div class="control-wrapper">
-      <label for="lime">Lime:</label>
-      <input class="form-control" id="lime" type="number" />
-    </div>
-    <button class="btn" type="submit">Save</button>
-  </form>
+    <button class="submit">Done</button>
+  </div>
   <script src="js/date.js"></script>
   <script src="js/weather.js"></script>
+  <script src="js/increment.js"></script>
 </body>
 </html>

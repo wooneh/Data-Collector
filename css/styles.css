@@ -2,20 +2,32 @@
   text-align: center;
 }
 
-.control-wrapper {
+.container{
+  text-align: center;
+}
+
+.activity {
+  background: #999999;
+  border: 2px solid #000000;
+  display: inline-block;
   font-size: 40px;
+  margin: 3px;
   padding: 6px 12px;
+  text-align: center;
+  width: 25%;
 }
 
-.form-control {
-  font-size: 40px;
+.icon {
+  float: left;
+}
+
+.counter {
   float: right;
-  width: 50px;
 }
 
-.btn {
+.submit {
   display: block;
   font-size: 16px;
-  margin: 0 auto;
+  margin: 15px auto;
   padding: 15px 32px;
 }
